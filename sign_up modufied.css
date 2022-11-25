@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Background{
+    width: 600px;
+    height: 1050px;
+    margin: auto; 
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/Background.png);        
+}
+.Background_one{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/Background1.png); 
+    background-size: 610px;
+}
+.Background_two{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/Background2.png!);
+    background-size: 610px;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:30px;
+    left: 50%;
+    width: 564px;
+    height: 54px;
+    margin-left: -282px;
+    background: rgba(0,0,0,0);
+}
+.Top #sign_one{
+    width: 54px;
+    height: 54px;
+}
+.Top #sign_one img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.Top #sign_two img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Top #sign_one img:hover{
+    content: url(https://liangjia.oss-cn-beijing.aliyuncs.com/%E8%BF%94%E5%9B%9E2.png);
+}
+.Top #sign_two img:hover{
+    content: url(https://liangjia.oss-cn-beijing.aliyuncs.com/%E4%B8%BE%E6%8A%A5%20(2).png);
+}
+.Top #words{
+    width: 113px;
+    height: 54px;
+    line-height: 54px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.photo{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -72.5px;
+    width: 145px;
+    height: 145px;
+    background: rgba(255,255,255,0.3);
+    opacity: 0.5;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.photo .photo_sign{
+    width: 80px;
+    height: 80px;
+    margin: 27px auto 0;
+}
+.photo .photo_sign img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.photo .photo_sign img:hover{
+    content: url(https://liangjia.oss-cn-beijing.aliyuncs.com/add%20(2).png);
+}
+.photo .photo_word{
+    width: 90px;
+    height: 17px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.tabulation{
+    position: absolute;
+    top: 349px;
+    left: 50%;
+    margin-left: -222px;
+    width: 444px;
+    height: 332px;
+    background: rgba(0,0,0,0);
+}
+.tabulation_content{
+    width: 100%;
+    height: 83px;
+    background: rgba(0,0,0,0);
+}
+.tabulation_content #First_name,#Last_Name,#Emile_Address,#Password{
+    font-size:25px;
+    color:white;
+}
+.tabulation_content input{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 3px solid rgba(255,255,255,0.5);
+}
+.tabulation_content #bloke input{
+    border: none;
+}
+.tabulation_content #Password{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    line-height: 36px;
+}
+.tabulation_content #Password_left{
+    width: 120px;
+    height: 100%;
+}
+.tabulation_content #Password_right{
+    width: 65px;
+    height: 100%;
+}
+.tabulation_content #Password_right a{
+    text-decoration: none;
+    color:#41e9b2;
+}
+.tabulation_content #Password_right a:hover{
+    color: rgb(61, 211, 61);
+}
+.sign_up{
+    position: absolute;
+    top: 726px;
+    left: 50%;
+    margin-left: -221px;
+    width: 442px;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 27px;
+    font-weight: 700;
+    border-radius: 37px;
+}
+.sign_up a{
+    color:#706d9f;
+    text-decoration: none;
+}
+.sign_up a:hover{
+    color:#6d0c8e;
+}
+.sign_in{
+    position: absolute;
+    top: 831px;
+    left: 50%;
+    margin-left: -138.5px;
+    width: 277px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.sign_in a{
+    text-decoration: none;
+    color: #41e9b2;
+}
+.sign_in a:hover{
+    color: rgb(61, 211, 61);
+}

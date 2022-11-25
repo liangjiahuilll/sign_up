@@ -12,13 +12,13 @@
     width: 100%;
     height: 100%;
     background-image: url(./img/Background1.png); 
-    background-size: cover;
+    background-size: 610px;
 }
 .Background2{
     width: 100%;
     height: 100%;
     background-image: url(./img/Background2.png);
-    background-size: cover;
+    background-size: 100% 100%;
     overflow: hidden;
 }
 .Top{
