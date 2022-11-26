@@ -19,7 +19,7 @@
     overflow: hidden;
     width: 100%;
     height: 100%;
-    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/Background2.png!);
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/Background2.png);
     background-size: 610px;
 }
 .header{
@@ -33,26 +33,11 @@
     margin-left: -282px;
     background: rgba(0,0,0,0);
 }
-.header #sign_one{
-    width: 54px;
-    height: 54px;
+.header a{
+    text-decoration: none;
+    fill: aliceblue;
 }
-.header #sign_one img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-.header #sign_two img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.header #sign_one img:hover{
-    content: url(https://liangjia.oss-cn-beijing.aliyuncs.com/%E8%BF%94%E5%9B%9E2.png);
-}
-.header #sign_two img:hover{
-    content: url(https://liangjia.oss-cn-beijing.aliyuncs.com/%E4%B8%BE%E6%8A%A5%202.png);
-}
+
 .header #words{
     width: 113px;
     height: 54px;
@@ -68,8 +53,7 @@
     margin-left: -72.5px;
     width: 145px;
     height: 145px;
-    background: rgba(255,255,255,0.3);
-    opacity: 0.5;
+    background: rgba(255,255,255,0.1);
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -183,4 +167,10 @@
 }
 .sign_in a:hover{
     color: rgb(61, 211, 61);
+}
+input:focus{
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
 }

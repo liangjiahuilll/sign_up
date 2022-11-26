@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3793976 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1669475352561') format('woff2'),
+       url('iconfont.woff?t=1669475352561') format('woff'),
+       url('iconfont.ttf?t=1669475352561') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jurassic_last-copy-copy:before {
+  content: "\100c7";
+  font-size: 55px;
+}
+
+.icon-jurassic_last-copy-copy-copy:before {
+  content: "\100c9";
+  font-size: 55px;
+}
+
+.icon-jubao-copy:before {
+  content: "\100c6";
+  font-size: 55px;
+}
+
+.icon-jubao-copy-copy:before {
+  content: "\100c8";
+  font-size: 55px;
+}
+
