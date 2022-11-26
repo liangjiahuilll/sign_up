@@ -28,16 +28,14 @@
     position: absolute;
     top:30px;
     left: 50%;
+    transform: translateX(-50%);
     width: 564px;
     height: 54px;
-    margin-left: -282px;
     background: rgba(0,0,0,0);
 }
 .header a{
     text-decoration: none;
-    fill: aliceblue;
 }
-
 .header #words{
     width: 113px;
     height: 54px;
@@ -50,7 +48,7 @@
     position: absolute;
     top: 170px;
     left: 50%;
-    margin-left: -72.5px;
+    transform: translateX(-50%);
     width: 145px;
     height: 145px;
     background: rgba(255,255,255,0.1);
@@ -81,7 +79,7 @@
     position: absolute;
     top: 349px;
     left: 50%;
-    margin-left: -222px;
+    transform: translateX(-50%);
     width: 444px;
     height: 332px;
     background: rgba(0,0,0,0);
@@ -133,7 +131,7 @@
     position: absolute;
     top: 726px;
     left: 50%;
-    margin-left: -221px;
+    transform: translateX(-50%);
     width: 442px;
     height: 75px;
     background-color: white;
@@ -154,7 +152,7 @@
     position: absolute;
     top: 831px;
     left: 50%;
-    margin-left: -138.5px;
+    transform: translateX(-50%);
     width: 277px;
     height: 30px;
     color: white;
